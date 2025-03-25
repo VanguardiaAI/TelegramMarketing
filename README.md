@@ -60,8 +60,8 @@ TELEGRAM_TEST_USER_ID=TU_ID_AQUI
 
 # Credenciales de MongoDB (opcional)
 MONGO_URI=mongodb+srv://usuario:contraseña@tu_cluster.mongodb.net/?retryWrites=true&w=majority
-DB_NAME=Bote
-COLLECTION_NAME=BoteCol
+DB_NAME=NombreBD
+COLLECTION_NAME=NombreColeccion
 ID_FIELD=id
 
 # Configuración de archivos
