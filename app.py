@@ -19,8 +19,8 @@ load_dotenv()
 # ¡IMPORTANTE! Usa variables de entorno o un método seguro para tus credenciales.
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "TU_BOT_TOKEN_AQUI")
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://usuario:contraseña@tu_cluster.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.getenv("DB_NAME", "Bote")
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "BoteCol")
+DB_NAME = os.getenv("DB_NAME", "DB_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME", "COLLECTION_NAME")
 ID_FIELD = os.getenv("ID_FIELD", "id")
 JSON_PATH = os.getenv("JSON_PATH", "users.json")
 
